@@ -105,8 +105,6 @@ app.get("/:dynamic",(req,res)=>{
     console.log("Some fault",fault)
   })
   
- 
-
 })
 
 app.post("/", (req, res)=>{
